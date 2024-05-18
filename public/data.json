@@ -1,0 +1,43 @@
+[
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "class": "Math",
+      "address": "123 Maple St, Springfield, IL",
+      "phone": "555-1234",
+      "isActive": true
+    },
+    {
+      "id": 2,
+      "name": "Bob Smith",
+      "class": "Science",
+      "address": "456 Oak St, Lincoln, NE",
+      "phone": "555-5678",
+      "isActive": false
+    },
+    {
+      "id": 3,
+      "name": "Charlie Davis",
+      "class": "History",
+      "address": "789 Pine St, Madison, WI",
+      "phone": "555-8765",
+      "isActive": true
+    },
+    {
+      "id": 4,
+      "name": "Diana Garcia",
+      "class": "Art",
+      "address": "321 Birch St, Columbus, OH",
+      "phone": "555-4321",
+      "isActive": true
+    },
+    {
+      "id": 5,
+      "name": "Ethan Martinez",
+      "class": "Physical Education",
+      "address": "654 Cedar St, Denver, CO",
+      "phone": "555-9876",
+      "isActive": false
+    }
+  ]
+  

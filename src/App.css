@@ -1,0 +1,7 @@
+.active{
+    background-color: rgb(15, 15, 83);
+    border-bottom: 5px solid white;
+}
+body{
+    background-color: rgb(177, 177, 177);
+}
