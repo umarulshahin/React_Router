@@ -2,42 +2,114 @@
     {
       "id": 1,
       "name": "Alice Johnson",
-      "class": "Math",
+      "class": "6",
       "address": "123 Maple St, Springfield, IL",
       "phone": "555-1234",
-      "isActive": true
+      "isActive": true,
+
+      "marks": {
+        "math": [85, 32, 90, 45, 76],
+        "english": [53, 99, 22, 65, 88],
+        "science": [34, 56, 78, 94, 30],
+        "history": [70, 61, 47, 82, 59],
+        "art": [60, 84, 25, 74, 93]
+      },
+      "sports": {
+      
+        "swimming": 1,
+        "tennis": -1
+      },
+      "remark": ["Excellent progress in science and art. Needs improvement in history."]
+    
     },
     {
       "id": 2,
       "name": "Bob Smith",
-      "class": "Science",
+      "class": "7",
       "address": "456 Oak St, Lincoln, NE",
       "phone": "555-5678",
-      "isActive": false
+      "isActive": false,
+
+      "marks": {
+        "math": [60, 84, 25, 74, 93],
+        "english": [70, 61, 47, 82, 59],
+        "science":[34, 56, 78, 94, 30],
+        "history": [53, 99, 22, 65, 88],
+        "art": [85, 32, 90, 45, 76]
+      },
+      "sports": {
+       
+        "swimming": 1,
+        "athletics": 1
+      },
+      "remark": ["Strong performance in science and math. Good overall sports skills."]
+    
     },
     {
       "id": 3,
       "name": "Charlie Davis",
-      "class": "History",
+      "class": "6",
       "address": "789 Pine St, Madison, WI",
       "phone": "555-8765",
-      "isActive": true
+      "isActive": true,
+
+      "marks": {
+        "math": [34, 56, 78, 94, 30],
+        "english": [53, 99, 22, 65, 88],
+        "science": [85, 32, 90, 45, 76],
+        "history":[70, 61, 47, 82, 59],
+        "art": [60, 84, 25, 74, 93]
+      },
+      "sports": {
+     
+        "swimming": -1,
+        "athletics": -1,
+        "tennis": 1
+      },
+      "remark": ["Excellent in history and art. Needs to work on football."]
     },
     {
       "id": 4,
       "name": "Diana Garcia",
-      "class": "Art",
+      "class": "7",
       "address": "321 Birch St, Columbus, OH",
       "phone": "555-4321",
-      "isActive": true
+      "isActive": true,
+
+      "marks": {
+        "math": [85, 32, 90, 45, 76],
+        "english": [70, 61, 47, 82, 59],
+        "science": [60, 84, 25, 74, 93],
+        "history": [53, 99, 22, 65, 88],
+        "art": [34, 56, 78, 94, 30]
+      },
+      "sports": {
+       
+        "swimming": 1,
+        "tennis": 1
+      },
+      "remark": ["Outstanding in English and basketball. Good balance in academics and sports."]
     },
     {
       "id": 5,
       "name": "Ethan Martinez",
-      "class": "Physical Education",
+      "class": "8",
       "address": "654 Cedar St, Denver, CO",
       "phone": "555-9876",
-      "isActive": false
+      "isActive": false,
+      "marks": {
+        "math": [34, 56, 78, 94, 30],
+        "english": [53, 99, 22, 65, 88],
+        "science":[60, 84, 25, 74, 93],
+        "history": [70, 61, 47, 82, 59],
+        "art": [85, 32, 90, 45, 76]
+      },
+      "sports": {
+   
+        "swimming": 1,
+        "athletics": -1
+      },
+      "remark": ["Consistent performance. Strong in science and swimming."]
     }
   ]
   

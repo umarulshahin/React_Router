@@ -7,6 +7,10 @@ import Users from './Pages/Users';
 import Header from './Components/Header';
 import "./App.css";
 import Details from './Pages/Details';
+import Notfound from './Pages/Notfound';
+import Mark from './Pages/Mark';
+import Sport from './Pages/Sport';
+import Remark from './Pages/Remark';
 
 const App = () => {
   return (
@@ -19,7 +23,12 @@ const App = () => {
       <Route path="Usage" element={<Usage />}/>
       <Route path='Settings' element={<Settings />}/>
       <Route path='Users' element={<Users />}/>
-      <Route path='details' element={<Details />}/>
+      <Route path='details/:userid' element={<Details />}>
+            <Route path="" element={<Mark />}/>
+            <Route path="Sport" element={<Sport />}/>
+            <Route path="Remark" element={<Remark />}/>
+      </Route>
+      <Route path='*' element={< Notfound />}/>
 
     </Routes>
     
